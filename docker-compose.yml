@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  app:
+    image: php:8.2-apache          # Готовый образ PHP c Apache
+    container_name: dota-randomaizer     # Имя контейнера
+    ports:
+      - "8080:80"                  # Хост‑порт 8080 → порт 80 контейнера
+    volumes:
+      - ./:/var/www/html           # Код приложения внутри контейнера
