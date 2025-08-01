@@ -6,3 +6,9 @@
 .hero-item div{
     width: 33%;
 }
+
+.bigDivAllInfoMegaGigaSuperFlex div{
+    display: flex;
+    width: 33%;
+    margin-bottom: 10px;
+}
